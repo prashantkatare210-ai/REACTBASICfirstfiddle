@@ -1,0 +1,56 @@
+
+.weblogo {
+  width: 65px;
+}
+
+.a {
+  text-align: center;
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: 'prague';
+  letter-spacing: 3px;
+}
+
+.e {
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+  margin-top: 20px;
+  background: black;
+  height: 450px;
+  background-image: url(https://pn-paul.netlify.app/image/img%20background.jpg);
+    line-height:32px;  
+}
+
+
+.f {
+  text-align: center;
+  padding-top: 40px;
+  text-transform: uppercase;
+  font-family: 'prague';
+  letter-spacing: 3px;
+  margin-bottom: 37px;
+}
+
+.g {
+
+  text-align: center;
+  padding-top: 130px;
+  color: white;
+  margin-top: 20px;
+  background: black;
+  height: 450px;
+  background-image: url(https://pn-paul.netlify.app/image/ffback2.png);
+    line-height:32px;  
+}
+
+footer {
+    background: #000000;
+    padding: 50px;
+    color: #fff;
+}
+
+.footering {
+    margin-top: 30px;
+    width: 50%;
+}
