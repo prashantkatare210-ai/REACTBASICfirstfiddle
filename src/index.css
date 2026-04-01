@@ -1,56 +1,436 @@
 
+.img123 {
+  width: 80%;
+}
+.a {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+}
+.b {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
+}
+@media (max-width: 768px) {
+  .img123 {
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+.c {
+  background: url(https://pn-paul.netlify.app/image/img%20background.jpg);
+  width: 100%;
+  height: 450px;
+  padding-top: 160px;
+}
+.d {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+}
+.e {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 10px;
+  text-align: center;
+}
+.f {
+  background-image: url(https://pn-paul.netlify.app/image/ffback2.png);
+  width: 100%;
+  height: 450px;
+  padding-top: 160px;
+}
+.color {
+  color: white;
+}
+.g {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+.h {
+  width: 250px;
+  height: 250px;
+}
+.i {
+  line-height: 30px;
+  word-spacing: 1px;
+  font-size: 18px;
+  color: aliceblue;
+}
+.j {
+  padding-top: 20px;
+  text-transform: uppercase;
+  font-family: "prague";
+  letter-spacing: 3px;
+  font-size: 20px;
+  color: orange;
+}
+.k {
+  padding-right: 100px;
+}
+.l {
+  color: orange;
+  font-size: 40px;
+  padding: 0px 5px;
+}
+.m {
+  color: white;
+  background-color: black;
+}
+.m h3 {
+  font-size: 16px;
+  text-align: center;
+  font-weight: 100;
+  line-height: 22px;
+}
+@media (max-width: 768px) {
+  .c {
+    padding-top: 50px;
+  }
+  .f {
+    padding-top: 50px;
+  }
+  .k {
+    padding-left: 30px;
+  }
+}
+.n {
+  justify-content: space-between;
+}
 .weblogo {
   width: 65px;
 }
-
-.a {
+.navbar {
+  background-color: #0000009c !important;
+}
+.navbar-nav li {
+  padding: 0 10px;
+  margin-left: 4px;
+  margin-right: 4px;
   text-align: center;
+}
+.navbar-nav li a {
+  color: #fff !important;
+  font-weight: 300;
+  font-size: 15px;
+}
+.navbar-nav li:hover {
+  background: orange;
+}
+.o {
+  background-color: #0000009c;
+  color: white;
+  text-transform: uppercase;
+  border: 1px solid orange;
+  font-weight: 300;
+  font-size: 15px;
+}
+.o:hover {
+  background-color: orange;
+}
+@media (max-width: 768px) {
+  .q {
+    background-color: orange;
+  }
+  .r {
+    content: url(https://pn-paul.netlify.app/image/logo-for-mobile.png);
+  }
+  .o {
+    background-color: orange;
+    border: 1px solid white;
+  }
+  .navbar {
+    background-color: orange !important;
+  }
+  .navbar.fixed-top {
+    position: static !important;
+  }
+}
+.abouttimg {
+  background-image: url(https://pn-paul.netlify.app/image/ourimage.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+.a2 {
   padding-top: 20px;
   text-transform: uppercase;
-  font-family: 'prague';
-  letter-spacing: 3px;
+  font-family: "prague";
+  letter-spacing: 1px;
+  font-size: 35px;
 }
-
-.e {
-  text-align: center;
-  padding-top: 130px;
-  color: white;
-  margin-top: 20px;
-  background: black;
+.b2 {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  text-align: justify;
+}
+.aboutimg {
+  width: 100%;
+}
+.c2 {
+  background: url(https://pn-paul.netlify.app/image/gamebanner.jpg);
+  width: 100%;
   height: 450px;
-  background-image: url(https://pn-paul.netlify.app/image/img%20background.jpg);
-    line-height:32px;  
+  padding-top: 160px;
 }
-
-
-.f {
+.d2 {
+  line-height: 35px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+}
+.e2 {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 10px;
   text-align: center;
-  padding-top: 40px;
+}
+.ab {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 20px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.abc {
+  line-height: 40px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 20px;
+  font-weight: lighter;
+  padding-bottom: 20px;
+}
+.aboutimg2 {
+  width: 100%;
+  padding-left: 30px;
+}
+@media (max-width: 768px) {
+  .c2 {
+    padding-top: 80px;
+  }
+  .d-flex {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    justify-content: center;
+  }
+  .aboutimg2 {
+    padding-left: 0;
+  }
+  .ab {
+    padding-bottom: 0;
+  }
+  .abc {
+    padding-bottom: 0;
+    margin: 0;
+    padding: 0;
+  }
+}
+.brandimg {
+  background-image: url(https://pn-paul.netlify.app/image/brands.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+@media (max-width: 768px) {
+  .card {
+    margin-left: 0 !important;
+    /* margin-bottom: 20px; */
+  }
+}
+.ourteamimg {
+  background-image: url(https://pn-paul.netlify.app/image/new-our-team.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+.photo1 {
+  background-image: url(https://pn-paul.netlify.app/image/YPAshok.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+.photo1 h4 {
+  font-size: 25px;
+  color: whitesmoke !important;
+}
+.photo2 {
+  background-image: url(https://pn-paul.netlify.app/image/B.R.-Sachdeva.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+.photo2 h4 {
+  font-size: 25px;
+  color: whitesmoke !important;
+}
+.photo3 {
+  background-image: url(https://pn-paul.netlify.app/image/Sagar-Bajaj.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+.photo3 h4 {
+  font-size: 25px;
+  color: whitesmoke !important;
+}
+.photo4 {
+  background-image: url(https://pn-paul.netlify.app/image/JAY-PHOTO-1-1.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+.photo4 h4 {
+  font-size: 25px;
+  color: whitesmoke !important;
+}
+.photo5 {
+  background-image: url(https://pn-paul.netlify.app/image/vibhutiPR.jpg);
+  width: 100%;
+  height: 8.8cm;
+  background-position: center;
+  background-size: cover;
+}
+.photo5 h4 {
+  font-size: 25px;
+  color: whitesmoke !important;
+}
+.brandimg {
+  background-image: url(https://pn-paul.netlify.app/image/brands.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+.go {
+  line-height: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  margin-top: 20px;
+  font-weight: lighter;
+  padding-bottom: 12px;
+}
+.read {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  font-weight: lighter;
+}
+.contact {
+  font-family: unset;
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+.contactinfo {
+  line-height: 20px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  padding-right: 5px;
+  font-weight: lighter;
+  padding-bottom: 2cm;
+}
+.contacth4 {
+  font-family: unset;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  line-height: 1.2;
+}
+.org {
+  color: orange;
+}
+.contactimg {
+  background-image: url(https://pn-paul.netlify.app/image/CONTACT-US.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+.pressimg {
+  background-image: url(https://pn-paul.netlify.app/image/press-new-1.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+.careersimg {
+  background-image: url(https://pn-paul.netlify.app/image/new-careers-1.jpg);
+  width: 100%;
+  height: 650px;
+  background-position: center;
+  background-size: cover;
+}
+.ch {
   text-transform: uppercase;
-  font-family: 'prague';
-  letter-spacing: 3px;
-  margin-bottom: 37px;
+  font-family: "prague";
+  letter-spacing: 2px;
+  font-size: 1.2cm;
 }
-
-.g {
-
-  text-align: center;
-  padding-top: 130px;
-  color: white;
-  margin-top: 20px;
-  background: black;
-  height: 450px;
-  background-image: url(https://pn-paul.netlify.app/image/ffback2.png);
-    line-height:32px;  
+.cp {
+  letter-spacing: 1px;
+  word-spacing: 2px;
+  line-height: 25px;
+  font-weight: lighter;
+  font-size: 18px;
 }
-
-footer {
-    background: #000000;
-    padding: 50px;
-    color: #fff;
+.abouth1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: prague;
+  text-transform: uppercase;
 }
-
-.footering {
-    margin-top: 30px;
-    width: 50%;
+.brandh1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: prague;
+  text-transform: uppercase;
+}
+.ourteamh1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: prague;
+  text-transform: uppercase;
+}
+.pressh1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: prague;
+  text-transform: uppercase;
+}
+.contacth1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: prague;
+  text-transform: uppercase;
+}
+.careersh1 {
+  font-size: 57px;
+  margin-top: 150px;
+  font-family: prague;
+  text-transform: uppercase;
 }
